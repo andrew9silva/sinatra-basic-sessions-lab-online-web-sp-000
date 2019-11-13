@@ -9,6 +9,8 @@ class App < Sinatra::Base
   
   get "/" do 
     
+    @item = params[:item]
+    
     erb :index
   end 
   
