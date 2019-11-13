@@ -9,4 +9,6 @@ class App < Sinatra::Base
   
   get "/" do 
   end 
-end
+  
+  post "/checkout" do
+  end 
